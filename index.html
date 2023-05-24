@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="Index.js"></script>
+</head>
+
+<body>
+    <form onsubmit="Promediar(event)">
+        <label for="Numeros"> Números a promediar:</label>
+        <input type="numbers" id="Numeros" required placeholder="Intorducir los números a promediar separados por comas">
+        <button type="submit"> Hacer promedio</button>
+    </form>
+    <form onsubmit="Factorial(event)">
+        <label for="facto"> Número a hallar el factorial</label>
+        <input type="numbers" id="facto" required placeholder="Escribe el número del que quieras hallar su factorial">
+        <button type="submit" > Calcular factorial</button>
+    </form>
+    <form onsubmit="ContarCaracteres(event)">
+        <label for="Contar_caracteres"> Texto a contar sus caracteres</label>
+        <input type="text" id="Contar_caracteres" required placeholder="Escribe texto y contaremos sus caracteres (incluyendo espacios)">
+        <button type="submit"> Contar Caracteres </button>
+        <div id="div_contar" class="Div_resultado"></div>
+    </form>
+    <form onsubmit="InvertirString(event)">
+        <label for="InvertirString"> Texto a invertir</label>
+        <input type="text" id="TextoInvertir" required placeholder="Escribe el texto que quieras invertir">
+        <button type="submit"> Invertir Texto</button>
+        <div id="div_invertir" class="Div_resultado"></div>
+    </form>
+    <form onsubmit="ContarVocales(event)">
+        <label for="Contar_vocales"> Texto a contar sus vocales</label>
+        <input type="text" id="Contar_vocales" required placeholder="Escribe el texto del que quieras saber la cantidad de vocales">
+        <button type="submit"> Contar Vocales</button>
+        <div id="Div_vocales" class="Div_resultado"></div>
+    </form>
+</body>
+</html>

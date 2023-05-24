@@ -1,0 +1,39 @@
+*{
+    background-color: #23272A;
+    color:white;
+}
+input {
+    width: 25%;
+    padding: 10px;
+    display:block;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+button {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgb(156, 84, 223);
+    color: white;
+    cursor: pointer;
+}
+.Div_resultado {
+    margin-bottom: 10px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 82, 204);
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(128, 17, 233);
+    padding: 10px 30px;
+}
+
+.Div_resultado span {
+    background-color: inherit;
+    width: fit-content;
+    height: fit-content;
+}
